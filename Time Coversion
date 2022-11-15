@@ -21,6 +21,7 @@ def timeConversion(s):
     else: 
         return str(int(s[:2]) + 12) + s[2:8]
 
+print("Input time (HH:MM:SS+PM/AM) :")
 s = input()
 
 result = timeConversion(s)
